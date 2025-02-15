@@ -32,9 +32,11 @@ const Marquee = () => {
   ];
 
   return (
-    <div className="container mx-auto">
-      <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
-      <MarqueeItem images={lowerMarquee} from={"-100%"} to={0} />
+    <div style={{ backgroundColor: "rgb(24 24 27)" }}>
+      <div className="container mx-auto">
+        <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
+        <MarqueeItem images={lowerMarquee} from={"-100%"} to={0} />
+      </div>
     </div>
   );
 };
