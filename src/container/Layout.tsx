@@ -8,9 +8,9 @@ const Layout = () => {
   return (
     <div>
       <div className="flex flex-col items-center p-4">
-        <img className="h-24 w-24" src="/Group.png" alt="Group" />
+        <img className="h-24 w-24" src="/logo.jpeg" alt="Group" />
         <span className="text-white tracking-[18px] text-[20px] mt-3">
-          TRADE BOX
+          LOVE TRADERS
         </span>
         <span className="text-white tracking-[12px] text-[16px] mt-3">
           CAPITAL
